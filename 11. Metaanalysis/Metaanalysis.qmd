@@ -246,8 +246,6 @@ Finding a common, standardised metric. Examples:
 
 Sometimes intermediate steps might be necessary (calculating statistics based on the information provided). Sometimes important data might be missing - you might contact the original author(s) and ask for the missing information.
 
-Anecdote: I (WH) once had to uncover what was the movie analysed in [this study](https://link.springer.com/article/10.1007/s11151-007-9141-0). We were collecting data and needed information on what year the data in the studies represented. Took some detective work as original author(s) did not wish to disclose the information, but it turned out to be possible.
-
 **Key 1**: effect sizes are independent from sample sizes. 
 
 **Key 2**: however, we may weigh them based on their accuracy (lower samples -> larger variance -> lower accuracy -> smaller weight)
