@@ -74,6 +74,7 @@ E.g.:
 Some special cases might involve: 0s, 1s and -1s or superlarge integers (has to do with the method getting tested).
 
 To find out all combinations you can just check all combinations of a and b coming from:
+
 - 0
 - 1
 - -1
@@ -87,6 +88,7 @@ That's 7*7 = 49 combinations, not bad!
 You basically try to exhaust the options without trying out similar inputs twice. 
 
 Note: be careful about the boundaries (e.g. 0, or maximums and minimums of types, empty objects, first and last elements, etc.)
+
 Note 2: sometimes some combinations are not possible.
 
 ### Things to consider
