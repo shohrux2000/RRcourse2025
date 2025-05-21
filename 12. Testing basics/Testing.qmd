@@ -22,6 +22,7 @@ Parts of these materials were inspired or taken from the link below. Please cons
 When writing software, functions, packages, etc. it's often difficult to predict everything that could go wrong. Some reports estimate that yearly costs of [software failures might go into trillions of $](https://www.it-cisq.org/cisq-files/pdf/CPSQ-2020-report.pdf).
 
 In general:
+
 - it is wasteful to run a complicated procedure only for it to fail after hours of computation.
 - it is also harmful for adoption if released utilities break down and do not support all potential use cases.
 - it damages sales when a software release contains bugs.
