@@ -1,1 +1,55 @@
+# Assignment 5 – Coding and Documentation with Git
+
+**Student:** Shokhrukhbek Valijonov (ID: 475154)  
+**Professor:** Wojciech Hardy  
+**Course:** Reproducible Research 2025  
+
+---
+
+## Task
+The goal of this assignment was to practice reproducible coding standards, apply Git for version control, and connect programming to real-world research.
+
+---
+
+## Git Workflow Demonstrated
+```bash
+# Stage and commit new R script
+git add lifeexp_analysis.R
+git commit -m "feat: add life expectancy analysis with data cleaning and plots"
+
+# Push to remote repository
+git push origin main
+```
+
+This workflow illustrates best practices in collaborative research: writing meaningful commit messages, committing structured code, and synchronizing with a remote repository.
+
+---
+
+## Global Example: Life Expectancy and Health Data
+To illustrate reproducibility with real-world data, I prepared an R script that analyzes **life expectancy across continents** (Gapminder dataset, 2007). This shows how health outcomes differ globally and how reproducible code can help in social science research.
+
+```r
+# R example: analyzing life expectancy
+library(dplyr)
+library(gapminder)
+
+data <- gapminder %>%
+  filter(year == 2007) %>%
+  group_by(continent) %>%
+  summarise(mean_lifeExp = mean(lifeExp))
+
+print(data)
+```
+
+This script shows:
+- **Data cleaning** and grouping.  
+- **Summarization** of health outcomes by continent.  
+- A reproducible workflow that can be documented and reused.
+
+---
+
+## Reflection
+- Reproducible workflows benefit from clear documentation and proper Git usage.  
+- Life expectancy is a globally relevant metric and demonstrates how coding can be applied to real-world social data.  
+- Good version control habits (frequent commits, meaningful messages) ensure work is transparent and verifiable.
 
